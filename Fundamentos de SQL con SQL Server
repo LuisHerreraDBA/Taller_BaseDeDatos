@@ -1,0 +1,37 @@
+Los fundamentos de SQL con SQL Server incluyen comprender la estructura de una base de datos relacional, cómo interactuar con ella utilizando comandos SQL y cómo administrar y manipular los datos almacenados en la base de datos. Aquí tienes una introducción a los conceptos fundamentales:
+
+1. Estructura de la base de datos:
+   - Tablas: Las tablas son la estructura básica de una base de datos relacional. Almacenan datos en filas y columnas.
+   - Columnas: Cada columna en una tabla tiene un nombre y un tipo de datos que define el tipo de datos que puede almacenar.
+   - Filas: Cada fila en una tabla representa un registro o una entrada de datos y contiene valores para cada columna.
+   - Claves primarias: Una clave primaria es una columna o un conjunto de columnas que identifica de forma única cada fila en una tabla.
+   - Relaciones: Las relaciones entre tablas se establecen mediante claves primarias y claves externas (foreign keys) para garantizar la integridad referencial.
+
+2. Manipulación de datos:
+   - INSERT: Se utiliza para agregar nuevos registros a una tabla.
+   - SELECT: Se utiliza para recuperar datos de una tabla o varias tablas.
+   - UPDATE: Se utiliza para modificar los datos existentes en una tabla.
+   - DELETE: Se utiliza para eliminar registros de una tabla.
+
+3. Cláusulas SQL:
+   - WHERE: Se utiliza para filtrar los resultados de una consulta basándose en una condición específica.
+   - ORDER BY: Se utiliza para ordenar los resultados de una consulta según una o más columnas.
+   - GROUP BY: Se utiliza para agrupar filas que tienen los mismos valores en una o más columnas.
+   - HAVING: Se utiliza con la cláusula `GROUP BY` para filtrar grupos de filas basándose en una condición de grupo.
+   - JOIN: Se utiliza para combinar datos de dos o más tablas basándose en una condición de unión.
+
+4. Funciones de agregación:
+   - SUM: Calcula la suma de los valores en una columna.
+   - AVG: Calcula el promedio de los valores en una columna.
+   - COUNT: Cuenta el número de filas en un conjunto de resultados.
+   - MIN: Encuentra el valor mínimo en una columna.
+   - MAX: Encuentra el valor máximo en una columna.
+
+5. Administración de la base de datos:
+   - Creación de la base de datos y de las tablas: Utiliza el comando `CREATE DATABASE` para crear una nueva base de datos y `CREATE TABLE` para crear nuevas tablas dentro de la base de datos.
+   - Modificación de la estructura de la tabla: Utiliza el comando `ALTER TABLE` para agregar, modificar o eliminar columnas de una tabla existente.
+   - Eliminación de la base de datos y de las tablas: Utiliza el comando `DROP DATABASE` para eliminar una base de datos y `DROP TABLE` para eliminar una tabla.
+
+Estos son solo algunos de los conceptos básicos de SQL que se aplican específicamente a SQL Server. 
+Para aprender más sobre SQL Server y cómo utilizarlo en la práctica, te recomendaría explorar tutoriales y documentación específica de Microsoft sobre SQL Server. 
+También puedes practicar escribiendo y ejecutando consultas SQL en una instancia de SQL Server para obtener una comprensión más profunda de cómo funciona.
